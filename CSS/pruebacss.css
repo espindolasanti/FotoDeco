@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  color: grey; }
+
+.logo {
+  display: none; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  background-color: #eee; }
+
+a {
+  text-decoration: none; }
+
+/* NAV BOOTSTRAP */
+.navReverse {
+  flex-flow: row-reverse; }
+
+.navbar-brand {
+  font-weight: 900; }
+
+.dropdown-menu {
+  background-color: pink; }
+  .dropdown-menu a:hover {
+    background-color: #7cfcfc; }
+
+.navItemFlex {
+  display: flex;
+  gap: 10px; }
+
+.btn-outline-success {
+  color: #198754;
+  border-color: purple; }
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: lightblue;
+    border-color: white; }
+
+/* fin nav bootstrap */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: pink;
+  /* padding: 1rem; */ }
+
+.titulosByN {
+  background-color: black;
+  color: white; }
+
+#h1FotoDeco {
+  display: none; }
+
+.tituloSlide {
+  color: white;
+  text-shadow: 0px 0px 16px black;
+  font-weight: 900;
+  font-size: 2rem; }
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none; }
+
+.destacados {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding-bottom: 2rem; }
+  .destacados__bloque {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem; }
+    .destacados__bloque__lista {
+      list-style: none;
+      text-align: center; }
+      .destacados__bloque__lista__titulo {
+        font-size: 18px; }
+      .destacados__bloque__lista__precio {
+        font-weight: bold;
+        padding-top: 10px; }
+    .destacados__bloque__img {
+      width: 300px;
+      height: 300px;
+      box-shadow: 0px 0px 30px 8px grey; }
+    .destacados__bloque__img:hover {
+      transform: scale(1.05, 1.05); }
+
+.contactos {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center; }
+  .contactos__consulta {
+    text-align: center;
+    margin: 1rem; }
+  .contactos__redes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+    font-size: 1.3rem;
+    padding: 5px; }
+  .contactos__redes--instagram:hover {
+    color: #C420DB;
+    transform: scale(1.05, 1.05); }
+  .contactos__redes--facebook:hover {
+    color: #1623E9;
+    transform: scale(1.05, 1.05); }
+  .contactos__redes--mail:hover {
+    color: #FC2C25;
+    transform: scale(1.05, 1.05); }
+  .contactos__donde {
+    margin: 2rem;
+    text-align: center; }
+
+.nosotras {
+  display: flex;
+  flex-flow: column-reverse;
+  align-items: center; }
+  .nosotras__img {
+    height: 400px;
+    width: 400px;
+    margin: 1rem;
+    box-shadow: 0 0 50px 0 grey; }
+  .nosotras__texto {
+    margin: 1rem 1rem; }
+
+.tips {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 20px; }
+
+.footer {
+  background: #ff8ccc;
+  background: linear-gradient(0deg, #ff8ccc 0%, #f0f0f0 100%);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 2rem; }
+  .footer__logo__img {
+    height: 100x;
+    width: 100px; }
+  .footer__redes {
+    display: flex;
+    flex-flow: column;
+    justify-content: center; }
+    .footer__redes__link {
+      color: grey;
+      font-size: 1.3rem;
+      font-style: italic;
+      font-weight: bold;
+      align-self: flex-start;
+      padding: 5px; }
+      .footer__redes__link--instagram:hover {
+        color: #C420DB;
+        transform: scale(1.05, 1.05); }
+      .footer__redes__link--facebook:hover {
+        color: #1623E9;
+        transform: scale(1.05, 1.05); }
+      .footer__redes__link--mail:hover {
+        color: #FC2C25;
+        transform: scale(1.05, 1.05); }
+
+/*Productos*/
+.productos {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem; }
+  .productos__titulo {
+    margin: 2rem;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    width: 96%;
+    text-align: center; }
+  .productos__box {
+    text-align: center; }
+    .productos__box__precio {
+      font-weight: bold; }
+    .productos__box__img {
+      width: 300px;
+      height: 300px;
+      box-shadow: 0px 0px 30px 8px grey;
+      margin: 2rem 0 1rem 0; }
+    .productos__box__img:hover {
+      transform: scale(1.1, 1.1); }
+
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+/* MEDIAS */
+@media only screen and (min-width: 576px) {
+  header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem; }
+  .logo {
+    display: inline-block; }
+  .logo img {
+    width: 50px;
+    height: 50px; }
+  .footer {
+    justify-content: space-around; } }
+
+@media only screen and (min-width: 768px) {
+  header nav {
+    font-size: 1.3rem; }
+  .logo img {
+    height: 80px;
+    width: 80px; }
+  .destacados {
+    align-items: center;
+    width: 85%;
+    margin: auto; }
+    .destacados__bloque {
+      flex-flow: row;
+      justify-content: space-evenly;
+      gap: 10rem;
+      width: 100%; }
+      .destacados__bloque__lista {
+        text-align: left; }
+    .destacados__bloque--invert {
+      flex-flow: row-reverse; }
+  .alturaSlide {
+    height: 91vh; } }
+
+@media only screen and (min-width: 990px) {
+  .navbar-brand {
+    margin-right: 10rem; }
+  .navReverse {
+    flex-direction: row; }
+  .destacados__bloque {
+    justify-content: space-evenly; }
+  .footer {
+    justify-content: space-evenly; }
+  .productos--grid {
+    display: grid;
+    grid-template: 2% 1fr 2% repeat(2, 1fr) 2% 1fr/repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: space-evenly; }
+    .productos--grid .productos__titulo--cuadros-grid {
+      grid-area: 1 / 1 / 2 / 4; }
+    .productos--grid .productos__titulo--fotos-grid {
+      grid-area: 3 / 1 / 4 / 4; }
+    .productos--grid .productos__titulo--regalos-grid {
+      grid-area: 6 / 1 / 7 / 4; }
+  .contactos {
+    flex-flow: row-reverse nowrap;
+    justify-content: space-evenly; }
+    .contactos .contactos__donde {
+      text-align: left; }
+  .nosotras {
+    flex-flow: row-reverse;
+    justify-content: space-evenly; }
+    .nosotras__img {
+      height: 500px;
+      width: 500px; }
+    .nosotras__texto {
+      width: 500px; } }
