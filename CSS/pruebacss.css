@@ -51,8 +51,10 @@ header {
   /* padding: 1rem; */ }
 
 .titulosByN {
-  background-color: black;
-  color: white; }
+  background-color: pink;
+  color: grey;
+  font-size: 2rem;
+  padding-left: 1rem; }
 
 #h1FotoDeco {
   display: none; }
